@@ -1,2 +1,3 @@
 *.seg
 raw_file/*.mp4
+__pycache__
