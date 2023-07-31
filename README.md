@@ -8,7 +8,7 @@ The raw_file should contains 2 files - hindi_movie.mp4 and hindi_movie_eng_srt.s
 '''https://tinyurl.com/5zuc79b5'''
 
 The project is built using conda-python3.10 and the enviroment is exported for reproducibility using ``conda env export > environment.yml``
-
+or ```conda list --explicit > environment.txt```
 You can use the project by installing anaconda/miniconda and then using terminal
     - ``` conda env create -f environment.yml```
 
