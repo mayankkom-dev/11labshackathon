@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: GenderDetect
+Version: 0.1
+Summary: A python wrapper around LIUMs gender detection toolkit.
+Home-page: https://github.com/Adirockzz95/GenderDetect
+Author: Aditya Khandkar
+Author-email: khandkar.adi@gmail.com
+License: GNU GPL v3
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7Topic :: Software Development :: Libraries :: Python Modules
+License-File: LICENSE

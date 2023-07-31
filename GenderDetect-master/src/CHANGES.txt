@@ -1,0 +1,48 @@
+
+Date: 20-05-2016
+author: Aditya Khandkar
+email: khandkar.adi@gmail.com
+------------------CHANGES------------------
+
+
+class ClusterSet:
+@line 1120 added : System.exit(0);
+Effect: After writing cluster data into seg file end program immediately.
+
+class DiagGaussian:
+commented out most of the log messages
+commented out stat calculation related to logs
+
+class GMMFactory:
+commented out most of the log messages
+commented out stat calculation related to logs
+
+class MainTools:
+commented out most of the log messages
+
+class FastDecoderWithDuration:
+commented out most of the log messages
+commented out stat calculation related to logs
+
+class AudioFeatureSet:
+commented out most of the log messages
+commented out stat calculation related to logs
+
+class Diarization:
+commented out most of the log messages
+commented out stat calculation related to logs
+
+class Segment:
+commented out most of the log messages
+commented out stat calculations related to logs
+
+lib:
+removed ffmpeg
+removed all javacv libraries
+
+
+How to compile:
+install ant 
+go into src/ folder i.e where the build.xml is located.
+open terminal and type ant
+

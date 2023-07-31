@@ -1,0 +1,13 @@
+LICENSE
+setup.py
+GenderDetect.egg-info/PKG-INFO
+GenderDetect.egg-info/SOURCES.txt
+GenderDetect.egg-info/dependency_links.txt
+GenderDetect.egg-info/not-zip-safe
+GenderDetect.egg-info/top_level.txt
+gdetect/LIUM_SpkDiarization-8.4.jar
+gdetect/__init__.py
+gdetect/config.py
+gdetect/gender.gmms
+gdetect/genderdetect.py
+gdetect/sms.gmms
