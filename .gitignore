@@ -11,4 +11,5 @@ __pycache__
 !raw_file/*
 !environment.txt
 !requirements.txt
+!packages.txt
 !environment.yml
