@@ -68,7 +68,7 @@ def main():
 
             # Enable the second video player
             video2_bytes = read_video_bytes(v2_file_loc)
-            st.header("Magic Dub Hindi Movie Clip {clip_id}")
+            st.header(f"Magic Dub Hindi Movie Clip {clip_id}")
             st.video(video2_bytes)
 
             # Download button for the second video
