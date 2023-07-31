@@ -1,5 +1,4 @@
 *.seg
-raw_file/*.mp4
 __pycache__
 *.wav
 *.mp4
@@ -9,6 +8,8 @@ __pycache__
 *.rttm
 *.yaml
 *.ckpt
+!raw_file/*.mp4
+!raw_file/hindi_movie_eng_srt.srt
 !environment.txt
 !requirements.txt
 !environment.yml
