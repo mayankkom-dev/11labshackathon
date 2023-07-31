@@ -8,6 +8,7 @@ __pycache__
 *.rttm
 *.yaml
 *.ckpt
+!raw_file/*
 !environment.txt
 !requirements.txt
 !environment.yml
