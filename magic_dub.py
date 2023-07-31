@@ -723,4 +723,8 @@ def streamlit_wrap_run(scene_num_st, scene_window, id, num_speaker):
                 srt_scene_audio_dir="clip_srt", 
                 clip_name=f"hindi_movie_clip_{id}", 
                 clone_new=True)
+    # clean up all *.seg file in current directory using os
+    os.system("rm -rf *.seg")
+
+
     return True
