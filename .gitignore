@@ -9,6 +9,6 @@ __pycache__
 *.rttm
 *.yaml
 *.ckpt
-! environment.txt
-! requirements.txt
-! environment.yml
+!environment.txt
+!requirements.txt
+!environment.yml
