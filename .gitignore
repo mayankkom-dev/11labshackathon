@@ -8,8 +8,6 @@ __pycache__
 *.rttm
 *.yaml
 *.ckpt
-!raw_file/*.mp4
-!raw_file/hindi_movie_eng_srt.srt
 !environment.txt
 !requirements.txt
 !environment.yml
