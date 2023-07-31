@@ -4,6 +4,15 @@ import base64
 import time
 from magic_dub import streamlit_wrap_run, get_total_num_scenes
 
+import subprocess
+
+# Execute the shell script to install FFmpeg
+try:
+    subprocess.run(["./install_ffmpeg.sh"], check=True, shell=True)
+except subprocess.CalledProcessError as e:
+    st.error(f"Error installing FFmpeg: {e}")
+    exit(1)
+    
 # Backend function for processing
 def process_data(scene, window):
     # Your backend processing logic here
