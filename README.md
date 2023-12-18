@@ -1,7 +1,7 @@
 ## Magic Dub + 11Labs 
 
 The solution is part of the Hackathon hosted on lablab.ai by 11Labs.
-
+Test Sample
 The solution is a POC utility of TTS for translating a movie into English using provided subtitles and voice analytics, cloning, and TTS. 
 
 The raw_file should contain 2 files - hindi_movie.mp4 and hindi_movie_eng_srt.srt. The movie is a Bollywood Romcom movie and is freely available on youtube, and still will be taken down if requested. The files are included in the drive link.
